@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(238, 232, 232);
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* header section */
+.header {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.header h1 {
+  font-size: 6em;
+}
+
+hr {
+  width: 85%;
+  margin-top: 1rem;
+  height: 3px;
+  border: none;
+  color: #000;
+  background-color: #000;
+}
+
+.header h2 {
+  margin: 1rem;
+  font-size: 2em;
+}
+
+/* nav section */
+.nav {
+  margin: 3rem 0;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.nav a {
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a:hover {
+  font-weight: 400;
+}
+/* featured projects section */
+.featured-projects {
+  background-color: rgb(244, 237, 228);
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  width: 30%;
+  height: 20rem;
+  background-color: #fff;
+  border: solid black;
+  margin: 1rem 0;
+}
+
+/* about section */
+.about {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2em;
+}
+
+.about p {
+  text-align: left;
+  margin: 0 3rem;
+  line-height: 2;
+}
+/* skills section */
+.skills h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20rem;
+  /* background-color: red; */
+}
+
+.img-box {
+  width: 25%;
+  height: 15rem;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+}
